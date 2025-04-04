@@ -1,5 +1,3 @@
-# prices = {"Cachorro Quente": 4.00, "X-Salada": 4.50, "X-Bacon": 5.00, "Torrada Simples": 2.00, "Refrigerante": 1.50}
-
 choice_1, choice_2 = map(int, input().split()) # Obtem a entrada de pedidos. Ex.:3 2
 
 products = {
