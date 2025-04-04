@@ -6,7 +6,7 @@ Escreva um programa em Python 3 que leia um número inteiro e responda se o núm
 Por exemplo:
 
 | Entrada | Resultado |
-| ------------------- |
+| --------|----------- |
 | 2       | Par       |
 | 5       | Impar     |
 
@@ -25,7 +25,7 @@ O cliente pode pedir adicional de queijo, que custa R$ 2.50 para uma pizza peque
 O seu programa deve ler o tamanho da pizza (P, M ou G), a opção pelo adicional de queijo (S ou N) e a opção pela borda recheada (S ou N). Seu programa deve imprimir o valor total do pedido, seguindo a formatação dos exemplos.
 
 | Entrada | Resultado         |
-| --------------------------- |
+| --------|------------------- |
 | `P N N` | `Total: R$ 15.00` |
 | `M S N` | `Total: R$ 22.50` |
 
@@ -42,6 +42,6 @@ https://www.calendarr.com/brasil/ano-bissexto/
 ### Por exemplo
 
 |Entrada|Resultado|
-|-----------------|
+|-------|----------|
 |`2000`| `Bissexto`|
 |`2021`| `Ano qualquer`|
