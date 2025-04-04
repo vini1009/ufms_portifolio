@@ -5,4 +5,4 @@
   
 |Categoria|ID|Nome|Resolução|
 |---------|--|----|---------|
-|Beecrowd|1037|Intervalo|[1013.py](AlgProg1_Problems/Beecrowd_Problems/1037/1037.py)
+|Beecrowd|1037|Intervalo|[1037.py](AlgProg1_Problems/Beecrowd_Problems/1037/1037.py)
