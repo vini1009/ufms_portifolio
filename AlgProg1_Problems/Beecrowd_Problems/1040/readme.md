@@ -15,3 +15,11 @@ Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens dev
 |`2.0 4.0 7.5 8.0 6.4`| Media: 5.4<br>Aluno em exame.<br>Nota do exame: 6.4<br>Aluno aprovado.<br>Media Final: 5.9|
 |`2.0 6.5 4.0 9.0`|Media: 4.8<br>Aluno reprovado.|
 |`9.0 4.0 8.5 9.0`|Media: 7.3<br>Aluno aprovado.|
+
+# Teste
+
+## Sem exame | Aluno Aprovado
+`python3 1040.py < 1040.txt`
+
+## Com Exame
+`python3 1040.py < 1040_exam.txt`
