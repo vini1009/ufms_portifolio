@@ -1,33 +1,36 @@
-x = 2.4
-k = 4
+# x = 2.4
+# k = 4
+# x = 5.3
+# k = 6
 
-isSum = False
+x = float(input())
+k = int(input())
 
-if(k % 2 == 0):
+isSum = True
 
-    calcResult = False  # A variável calcResult é inicializada como False
+resultFinal = 0
 
-    for i in range(2, k + 1, 2):  # Loop sobre os números 2, 4
-        print(f"{i}")
+for index in range(2, k + 1, 2):
+    # print(f"Fator : {index}")
 
-        fator = 1
-        for j in range(2, i + 1):
-            fator *= j
+    factorFinal = 1
+    for i in range(1, index + 1):
+        factorFinal *= i - index - 1
+        # print(f"Fator Atual {i}/{index}: {index - i}")
 
-        localCalc = x * i / fator  # Calcula o valor de localCalc para cada i
+    # print(f"Resultado Fatorial: {factorFinal}")
 
-        if(calcResult == False):  # Se calcResult ainda for False (inicialmente)
-            calcResult = localCalc  # Atribui o valor de localCalc a calcResult
-        else:
-            if(isSum):  # Se isSum for True, soma o valor
-                calcResult += localCalc  # Atualiza calcResult com a soma
-            else:  # Se isSum for False, subtrai o valor
-                calcResult -= localCalc  # Atualiza calcResult com a subtração
+    # print(f"Resultado da Elevação: {x ** index}")
 
-        print(f"Fator: {fator} | Resultado 1 : {localCalc:.4f}")
-        
-    isSum = not isSum  # Inverte o valor de isSum
+    math = x ** index / factorFinal
 
-    calcResult *= -1  # Multiplica calcResult por -1
+    if(isSum):
+        resultFinal += math
+    else: 
+        resultFinal -= math
 
-    print(f"Resultadão: {calcResult:.4f}")
+    isSum = not isSum
+
+resultFinal = 1 - resultFinal
+
+print(f"{resultFinal:.4f}")
